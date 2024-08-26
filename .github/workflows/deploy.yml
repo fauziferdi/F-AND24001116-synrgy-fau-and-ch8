@@ -49,5 +49,5 @@ jobs:
         with:
           appId: ${{secrets.FIREBASE_APP_ID}}
           serviceCredentialsFileContent: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
-          groups: tester
+          groups: tester_app
           file: app/build/outputs/apk/normalMember/debug/app-normalMember-debug.apk
