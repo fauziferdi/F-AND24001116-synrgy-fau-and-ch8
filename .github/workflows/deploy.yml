@@ -22,7 +22,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: run unit test
-        run: ./gradlew testFreeDebugUnitTest
+        run: ./gradlew testNormalMemberDebugUnitTest
 
   build_apk:
     needs: run_unit_test
@@ -41,4 +41,4 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build App
-        run: ./gradlew assembleFreeDebug
+        run: ./gradlew assembleNormalMemberDebug
