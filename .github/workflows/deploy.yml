@@ -1,4 +1,4 @@
-name: Deploy App to Firebase Distribution
+name: Build Android APK
 
 on:
   pull_request:
@@ -21,7 +21,7 @@ jobs:
       - name: run unit test
         run: ./gradlew testFreeDebugUnitTest
 
-  upload_to_firebase:
+  build_apk:
     needs: run_unit_test
     runs-on: ubuntu-latest
     steps:
