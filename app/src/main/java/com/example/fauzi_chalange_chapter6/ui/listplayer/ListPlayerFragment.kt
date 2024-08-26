@@ -52,6 +52,7 @@ class ListPlayerFragment : Fragment(), PlayerAdapterListener {
         }
         binding.btnToFav.setOnClickListener { goToFavoriteFragment() }
         binding.btnToFoto.setOnClickListener {openActivityFoto()}
+        binding.btnCrash.setOnClickListener {btnCrash()}
     }
 
 
@@ -93,6 +94,10 @@ class ListPlayerFragment : Fragment(), PlayerAdapterListener {
 
     private fun openActivityFoto() {
         startActivity(Intent(this.context, ImageBlurActivity::class.java))
+    }
+
+    private fun btnCrash() {
+        throw RuntimeException("test crash crashlytics")
     }
 
 

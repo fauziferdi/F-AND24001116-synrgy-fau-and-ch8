@@ -30,6 +30,16 @@
             android:text="Ke Favorite"
 
             />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_crash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@id/btn_to_fav"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="20px"
+            android:text="crash"
+
+            />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"
