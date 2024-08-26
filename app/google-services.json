@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "884118235161",
+    "project_id": "synrgy7-fauzi-app",
+    "storage_bucket": "synrgy7-fauzi-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884118235161:android:3de80dab09d8d4fbb86288",
+        "android_client_info": {
+          "package_name": "com.example.fauzi_chalange_chapter6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSKmPouwfZXWt8RWwfAx8_ITuZAfb2zWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

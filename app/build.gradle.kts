@@ -7,6 +7,7 @@ plugins {
     id("androidx.navigation.safeargs")
     id("com.google.devtools.ksp")
     id("com.google.protobuf") version "0.9.4"
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -129,6 +130,10 @@ dependencies {
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.1")
     testImplementation("org.mockito:mockito-inline:5.2.0")
     testImplementation("androidx.arch.core:core-testing:2.1.0")
+
+    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
+    implementation("com.google.firebase:firebase-analytics")
+
 }
 protobuf {
     protoc {
