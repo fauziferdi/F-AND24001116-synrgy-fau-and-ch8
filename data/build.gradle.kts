@@ -43,6 +43,10 @@ android {
         jvmTarget = "11"
     }
 
+    buildFeatures {
+        buildConfig = true
+    }
+
 }
 
 dependencies {
